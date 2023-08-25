@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-health-check-wkfw
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/quay_xjiang/rhtap-demo-tylz-tenant/e2e-nodejs/nodejs-health-check-wkfw@sha256:3ecc0b78245492e2f77453299d93d3e3d96537c8d1045295214ba40d29cfe025
         name: my-nodejs
         ports:
         - containerPort: 3001
