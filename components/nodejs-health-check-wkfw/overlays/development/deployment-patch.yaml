@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nodejs-health-check-wkfw
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/quay_xjiang/rhtap-demo-tylz-tenant/e2e-nodejs/nodejs-health-check-wkfw@sha256:3ecc0b78245492e2f77453299d93d3e3d96537c8d1045295214ba40d29cfe025
+        name: my-nodejs
+        resources: {}
+status: {}
